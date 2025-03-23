@@ -1,8 +1,8 @@
 {
-  "name": "base-react-vite-hoidanit",
+  "name": "react-of-phat",
   "author": {
-    "name": "Hỏi Dân IT & Eric",
-    "url": "https://hoidanit.vn"
+    "name": "NguyenPhatDev2412",
+    "homepage": "https://nguyenphat2412.github.io/ReactTheMoive"
   },
   "private": true,
   "version": "0.0.1",
@@ -12,7 +12,9 @@
     "start": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.6.1",
