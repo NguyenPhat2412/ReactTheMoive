@@ -1,9 +1,9 @@
 {
   "name": "react-of-phat",
   "author": {
-    "name": "NguyenPhatDev2412",
-    "homepage": "https://nguyenphat2412.github.io/ReactTheMoive"
+    "name": "NguyenPhatDev2412"
   },
+  "homepage": "https://nguyenphat2412.github.io/ReactTheMoive",
   "private": true,
   "version": "0.0.1",
   "type": "module",
